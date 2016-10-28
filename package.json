@@ -1,0 +1,22 @@
+{
+  "name": "aljones15.github.io",
+  "version": "1.0.0",
+  "description": "npm packages for home page",
+  "main": "index.elm",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aljones15/aljones15.github.io.git"
+  },
+  "author": "aljones15",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aljones15/aljones15.github.io/issues"
+  },
+  "homepage": "https://github.com/aljones15/aljones15.github.io#readme",
+  "dependencies": {
+    "skeleton-css": "^2.0.4"
+  }
+}
