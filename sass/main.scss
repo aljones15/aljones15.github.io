@@ -1,0 +1,10 @@
+@import '../node_modules/skeleton-css/css/normalize';
+@import '../node_modules/skeleton-css/css/skeleton';
+$badass: #bada55;
+
+html {
+  body {
+    margin: 0;
+    background-color: $badass;
+  }
+}

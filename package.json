@@ -4,7 +4,8 @@
   "description": "npm packages for home page",
   "main": "index.elm",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build-sass": "node-sass --include-path scss sass/main.scss ./main.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/aljones15/aljones15.github.io#readme",
   "dependencies": {
+    "node-sass": "^3.10.1",
     "skeleton-css": "^2.0.4"
   }
 }
