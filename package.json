@@ -4,8 +4,7 @@
   "description": "npm packages for home page",
   "main": "index.elm",
   "scripts": {
-    "test": "test",
-    "build-sass": "node-sass --include-path scss sass/main.scss ./main.css"
+    "buildSass": "./node_modules/.bin/node-sass --include-path scss sass/main.scss ./main.css"
   },
   "repository": {
     "type": "git",
